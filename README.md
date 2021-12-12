@@ -27,5 +27,5 @@ customText - Custom text to display under the spinner or loader
 
  ``` <Spinner speed={5} customText={"Loading..."}/> ```
 
-This repo is just released. NPM package very soon with more icons. Stay tuned. Feel free to contribute. 
+This repo is just released. NPM package will be available very soon with more icons. Stay tuned. Feel free to contribute. 
 
