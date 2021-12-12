@@ -22,7 +22,7 @@ Each spinner or loader component has its own style sheet. You can do whatever ch
 
 Use the below Props to customize the spinner or loader
 
-speed - Animation speed 
+speed - Animation speed <br>
 customText - Custom text to display under the spinner or loader 
 
  ``` <Spinner speed={5} customText={"Loading..."}/> ```
