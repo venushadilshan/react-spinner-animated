@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# React-Spinner
+A Simple Spinner and Loader Library 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Have a look
+<img src="https://i.ibb.co/vzNVMtr/ezgif-4-2ca2dc4101e4.gif" width="500px">
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## How to use?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The NPM package is not released yet. You can clone the project and try out the component for now. Each Spinner/ Loader has its own Component Name. You can find the available Spinner components below. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Circular Spinner - ``` <Spinner/> ``` <br>
+Bubble Spinner (Dual Layers) = ``` <DoubbleBoubble/> ``` <br>
+Bar Loader = ``` <BarLoader/> ``` <br>
 
-### `npm test`
+### Customization
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Each spinner or loader component has its own style sheet. You can do whatever changes you want.
 
-### `npm run build`
+#### Props
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Use the below Props to customize the spinner or loader
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+speed - Animation speed 
+customText - Custom text to display under the spinner or loader 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ ``` <Spinner speed={5} customText={"Loading..."}/> ```
 
-### `npm run eject`
+This repo is just released. NPM package very soon with more icons. Stay tuned. Feel free to contribute. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
