@@ -1,4 +1,4 @@
-# React-Spinner
+## React-Spinner
 A Simple Spinner and Loader Library 
 
 ## Have a look
