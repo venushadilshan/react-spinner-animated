@@ -11,8 +11,8 @@ A Simple Spinner and Loader Library
 You can clone the project and try out the component for now. Each Spinner/ Loader has its own Component Name. You can find the available Spinner components below. 
 
 Circular Spinner - ``` <Spinner/> ``` <br>
-Bubble Spinner (Dual Layers) = ``` <DoubbleBoubble/> ``` <br>
-Bar Loader = ``` <BarLoader/> ``` <br>
+Bubble Spinner (Dual Layers) - ``` <DoubbleBoubble/> ``` <br>
+Bar Loader - ``` <BarLoader/> ``` <br>
 
 ### Customization
 
