@@ -8,7 +8,7 @@ A Simple Spinner and Loader Library
 
 ## How to use?
 
-The NPM package is not released yet. You can clone the project and try out the component for now. Each Spinner/ Loader has its own Component Name. You can find the available Spinner components below. 
+You can clone the project and try out the component for now. Each Spinner/ Loader has its own Component Name. You can find the available Spinner components below. 
 
 Circular Spinner - ``` <Spinner/> ``` <br>
 Bubble Spinner (Dual Layers) = ``` <DoubbleBoubble/> ``` <br>
@@ -27,5 +27,5 @@ customText - Custom text to display under the spinner or loader
 
  ``` <Spinner speed={5} customText={"Loading..."}/> ```
 
-This repo is just released. NPM package will be available very soon with more icons. Stay tuned. Feel free to contribute. 
+T
 
