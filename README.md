@@ -27,4 +27,9 @@ customText - Custom text to display under the spinner or loader
 
  ``` <Spinner speed={5} customText={"Loading..."}/> ```
 
+
 See you again with more spinners! 
+
+
+
+
