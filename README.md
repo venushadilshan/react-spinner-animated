@@ -13,6 +13,7 @@ You can clone the project and try out the component for now. Each Spinner/ Loade
 Circular Spinner - ``` <Spinner/> ``` <br>
 Bubble Spinner (Dual Layers) - ``` <DoubbleBoubble/> ``` <br>
 Bar Loader - ``` <BarLoader/> ``` <br>
+Sliding Pebbles - ``` <SlidingPebbles/> ``` <br>
 
 ### Customization
 
