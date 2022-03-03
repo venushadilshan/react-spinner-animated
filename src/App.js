@@ -8,7 +8,7 @@ function App() {
   return (
    <div>
    
-      <SlidingPebbles customText={"Loading"}/>
+      <BarLoader customText={"Loading"}/>
       
      <div style={{background:"#32323C",height:"100vh"}}></div>
     
