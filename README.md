@@ -3,12 +3,11 @@ A Simple Spinner and Loader Library
 
 ## Have a look
 
-<img src="https://i.ibb.co/TBBxjZB/bandicam-2022-03-03-17-18-19-051.gif" width="200px" >
+<p><img src="https://i.ibb.co/TBBxjZB/bandicam-2022-03-03-17-18-19-051.gif" width="200px" >
 <img src="https://i.ibb.co/hWsh6ZD/bandicam-2022-03-03-17-17-58-138.gif" width="200px">
 <img src="https://i.ibb.co/Sx5zhFZ/bandicam-2022-03-03-17-17-41-578.gif" width="200px">
 <img src="https://i.ibb.co/Hh87sLg/bandicam-2022-03-03-17-16-31-780.gif" width="200px">
-
-
+</p>
 
 ## How to use?
 
