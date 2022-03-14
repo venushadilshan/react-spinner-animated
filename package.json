@@ -1,6 +1,6 @@
 {
   "name": "react-spinner-animated",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "description": "Spinner/Loader library for react",
   "author": "venushadilshan",
   "license": "MIT",
@@ -24,7 +24,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": ">=16"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
