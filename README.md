@@ -1,39 +1,30 @@
-## React-Spinner
-A Simple Spinner and Loader Library 
+# react-spinner-animated
 
-## Have a look
+> Loader/Spinner Library for React 
 
-<p><img src="https://i.ibb.co/TBBxjZB/bandicam-2022-03-03-17-18-19-051.gif" width="200px" >
-<img src="https://i.ibb.co/hWsh6ZD/bandicam-2022-03-03-17-17-58-138.gif" width="200px">
-<img src="https://i.ibb.co/Sx5zhFZ/bandicam-2022-03-03-17-17-41-578.gif" width="200px">
-<img src="https://i.ibb.co/Hh87sLg/bandicam-2022-03-03-17-16-31-780.gif" width="200px">
-</p>
+[![NPM](https://img.shields.io/npm/v/react-spinner.svg)](https://www.npmjs.com/package/react-spinner) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## How to use?
+## Install
 
-You can clone the project and try out the component for now. Each Spinner/ Loader has its own Component Name. You can find the available Spinner components below. 
+```bash
+npm install --save react-spinner
+```
 
-Circular Spinner - ``` <Spinner/> ``` <br>
-Bubble Spinner (Dual Layers) - ``` <DoubbleBoubble/> ``` <br>
-Bar Loader - ``` <BarLoader/> ``` <br>
-Sliding Pebbles - ``` <SlidingPebbles/> ``` <br>
+## Usage
 
-### Customization
+```jsx
+import React, { Component } from 'react'
 
-Each spinner or loader component has its own style sheet. You can do whatever changes you want.
+import { BarLoader,DoubleBubble, SlidingPebbles } from 'react-spinner-animated';
+import 'react-spinner-animated/dist/index.css'
 
-#### Props
+class MyComponent extends Component {
+  render() {
+    return <BarLoader/>
+  }
+}
+```
 
-Use the below Props to customize the spinner or loader
+## License
 
-speed - Animation speed <br>
-customText - Custom text to display under the spinner or loader 
-
- ``` <Spinner speed={5} customText={"Loading..."}/> ```
-
-
-See you again with more spinners! 
-
-
-
-
+MIT © [venushadilshan](https://github.com/venushadilshan)

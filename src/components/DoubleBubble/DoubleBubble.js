@@ -1,7 +1,7 @@
 import react from "react";
 import '../DoubleBubble/DoubleBubble.css';
 
-export default function DOubbleBubble(props) {
+export default function DoubleBubble(props) {
     
     return (
         <div className="spinner-container">

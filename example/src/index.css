@@ -1,0 +1,235 @@
+.spinner-container {
+    background-color: #fff;
+
+    z-index: 99;
+    position: fixed;
+    width: 100px;
+    padding: 10px;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -50px;
+    border-radius: 0.5rem;
+
+}
+
+.spinner-container p {
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+#upperbar {
+    animation: upperBar linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    transform-box: border-box;
+}
+
+#middlebar {
+    animation: middlebar ease;
+
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    transform-box: border-box;
+
+}
+
+#bottombar {
+    animation: bottombar ease;
+
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    transform-box: border-box;
+}
+
+@keyframes upperBar {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(15px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+@keyframes middlebar {
+    0% {
+        transform: translateX(-20px);
+    }
+
+    50% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(-20px);
+    }
+
+
+}
+
+@keyframes bottombar {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+
+
+}
+
+
+
+.spinner-container {
+    background-color: #fff;
+
+    z-index: 99;
+    position: fixed;
+    width: 100px;
+    padding: 10px;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -50px;
+    border-radius: 0.5rem;
+
+}
+
+.spinner-container p {
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+#inner {
+    animation: rotate linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    transform-box: border-box;
+}
+
+#outer {
+    animation: rotate-inverse linear;
+
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    transform-box: border-box;
+
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes rotate-inverse {
+    0% {
+        transform: rotateZ(360deg);
+    }
+
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+
+
+
+.spinner-container {
+    background-color: #fff;
+
+    z-index: 99;
+    position: fixed;
+    width: 100px;
+    padding: 10px;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -50px;
+    border-radius: 0.5rem;
+
+}
+
+.spinner-container p {
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+#left {
+    animation: slide linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    transform-box: border-box;
+}
+
+#right {
+    animation: slide-inverse linear;
+
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    transform-box: border-box;
+
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(20px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes slide-inverse {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(-20px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+
+}

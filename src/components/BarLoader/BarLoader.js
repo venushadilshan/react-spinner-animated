@@ -1,11 +1,10 @@
-import react from "react";
 import '../BarLoader/BarLoader.css';
 
 export default function BarLoader(props) {
 
     return (
         <div className="spinner-container">
-
+            
             <svg width="87" height="50" viewBox="0 0 87 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="loader_bars">
                     <g id="upperbar">
