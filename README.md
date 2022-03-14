@@ -10,12 +10,26 @@
 npm install --save react-spinner
 ```
 
+## Variations
+
+<p float="left"><img src="https://i.ibb.co/TBBxjZB/bandicam-2022-03-03-17-18-19-051.gif" width="200px" >
+<img src="https://i.ibb.co/hWsh6ZD/bandicam-2022-03-03-17-17-58-138.gif" width="200px">
+<img src="https://i.ibb.co/Hh87sLg/bandicam-2022-03-03-17-16-31-780.gif" width="200px">
+</p>
+
+ - `<BarLoader/>`
+ - `<DoubleBubble>`
+ - `<SlidingPebbles/>`
+
+
 ## Usage
 
 ```jsx
 import React, { Component } from 'react'
 
-import { BarLoader,DoubleBubble, SlidingPebbles } from 'react-spinner-animated';
+import { BarLoader,DoubleBubble, SlidingPebbles } 
+from 'react-spinner-animated';
+
 import 'react-spinner-animated/dist/index.css'
 
 class MyComponent extends Component {
@@ -24,6 +38,8 @@ class MyComponent extends Component {
   }
 }
 ```
+
+### See you again with more spinners
 
 ## License
 
