@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BarLoader = () => {
+var BarLoader = function BarLoader() {
   return /*#__PURE__*/React.createElement("div", {
     className: "spinner-container"
   }, /*#__PURE__*/React.createElement("svg", {
@@ -40,7 +40,7 @@ const BarLoader = () => {
     fill: "#FD0098"
   })))));
 };
-const DoubleBubble = () => {
+var DoubleBubble = function DoubleBubble() {
   return /*#__PURE__*/React.createElement("div", {
     className: "spinner-container"
   }, /*#__PURE__*/React.createElement("svg", {
@@ -123,7 +123,7 @@ const DoubleBubble = () => {
     fill: "#DABDFF"
   })))));
 };
-const SlidingPebbles = () => {
+var SlidingPebbles = function SlidingPebbles() {
   return /*#__PURE__*/React.createElement("div", {
     className: "spinner-container"
   }, /*#__PURE__*/React.createElement("svg", {

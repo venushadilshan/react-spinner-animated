@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save react-spinner
+npm i react-spinner-animated
 ```
 
 ## Variations
