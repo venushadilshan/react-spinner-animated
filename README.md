@@ -11,7 +11,7 @@ npm i react-spinner-animated
 ```
 
 ## Variations
-<hr>
+
 <p float="left"><img src="https://i.ibb.co/j89B7SP/ezgif-2-629b520979.gif" width="600px" >
 
 
@@ -25,7 +25,7 @@ npm i react-spinner-animated
 
 
 ## Usage
-<hr>
+
 You must import both the Loader/Spinner component and index.css 
 <br>i.e - `import 'react-spinner-animated/dist/index.css'`
 
@@ -44,7 +44,7 @@ class MyComponent extends Component {
 ```
 
 ## Props
-<hr>
+
 
 Each component has 3 optional props 
 - text - Custom text for display with the loader/spinner
