@@ -1,23 +1,6 @@
-.spinner-container {
-    background-color: #fff;
 
-    z-index: 99;
-    position: fixed;
-    width: 100px;
-    padding: 10px;
-    top: 50%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -50px;
-    border-radius: 0.5rem;
 
-}
-
-.spinner-container p {
+.text-loading {
     text-align: center;
     margin: 5px 0 0 0;
 }
@@ -99,7 +82,7 @@
 
 
 .spinner-container {
-    background-color: #fff;
+   
 
     z-index: 99;
     position: fixed;
@@ -117,10 +100,30 @@
 
 }
 
-.spinner-container p {
-    text-align: center;
-    margin: 5px 0 0 0;
+.spinner-container-regular {
+   
+
+    z-index: 99;
+    
+    width: 100px;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin:10px;
+    border-radius: 0.5rem;
+
 }
+
+.text-loading{
+    font-size: 1em;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
 
 #inner {
     animation: rotate linear;
@@ -163,29 +166,7 @@
 
 
 
-.spinner-container {
-    background-color: #fff;
 
-    z-index: 99;
-    position: fixed;
-    width: 100px;
-    padding: 10px;
-    top: 50%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -50px;
-    border-radius: 0.5rem;
-
-}
-
-.spinner-container p {
-    text-align: center;
-    margin: 5px 0 0 0;
-}
 
 #left {
     animation: slide linear;
@@ -233,3 +214,68 @@
     }
 
 }
+     
+
+
+
+
+
+#upper
+
+{
+    animation: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+}
+
+@keyframes rotate {
+    0%
+    {
+        transform: rotateZ(0deg);
+    }
+    100%
+    {
+        transform: rotateZ(360deg);
+    }
+}
+
+
+
+
+#do1 {
+    animation: rotate-do linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    transform-box: border-box;
+}
+
+
+
+@keyframes rotate-do {
+    0% {
+        transform: rotateZ(0deg);
+       
+    }
+
+    25% {
+        transform: rotateZ(45deg);
+        
+    }
+
+    50% {
+        transform: rotateZ(0deg);
+        
+    }
+    75% {
+        transform: rotateZ(-45deg);
+        
+    }
+    100% {
+        transform: rotateZ(0deg);
+        
+    }
+
+}
+

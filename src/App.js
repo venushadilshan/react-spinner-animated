@@ -6,13 +6,7 @@ import BarLoader from './components/BarLoader/BarLoader';
 import SlidingPebbles from './components/SlidingPebbles/SlidingPebbles';
 function App() {
   return (
-   <div>
-   
-      <BarLoader customText={"Loading"}/>
-      
-     <div style={{background:"#32323C",height:"100vh"}}></div>
-    
-   </div>
+  null
   );
 }
 

@@ -2,9 +2,20 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 
 var React = _interopDefault(require('react'));
 
-var BarLoader = function BarLoader() {
+var BarLoader = function BarLoader(props) {
+  var containerClass = "spinner-container";
+
+  if (props.center === true) {
+    var containerClass = "spinner-container";
+  } else if (props.center === false) {
+    var containerClass = "spinner-container-regular";
+  }
+
   return /*#__PURE__*/React.createElement("div", {
-    className: "spinner-container"
+    className: containerClass,
+    style: {
+      backgroundColor: props.bgColor
+    }
   }, /*#__PURE__*/React.createElement("svg", {
     width: "87",
     height: "50",
@@ -40,11 +51,24 @@ var BarLoader = function BarLoader() {
     height: "14",
     rx: "7",
     fill: "#FD0098"
-  })))));
+  })))), /*#__PURE__*/React.createElement("p", {
+    className: "text-loading"
+  }, props.text));
 };
-var DoubleBubble = function DoubleBubble() {
+var DoubleBubble = function DoubleBubble(props) {
+  var containerClass = "spinner-container";
+
+  if (props.center === true) {
+    var containerClass = "spinner-container";
+  } else if (props.center === false) {
+    var containerClass = "spinner-container-regular";
+  }
+
   return /*#__PURE__*/React.createElement("div", {
-    className: "spinner-container"
+    className: containerClass,
+    style: {
+      backgroundColor: props.bgColor
+    }
   }, /*#__PURE__*/React.createElement("svg", {
     width: "100%",
     viewBox: "0 0 248 247",
@@ -123,11 +147,24 @@ var DoubleBubble = function DoubleBubble() {
     r: "12.1774",
     transform: "rotate(32.5155 68.958 92.9549)",
     fill: "#DABDFF"
-  })))));
+  })))), /*#__PURE__*/React.createElement("p", {
+    className: "text-loading"
+  }, props.text));
 };
-var SlidingPebbles = function SlidingPebbles() {
+var SlidingPebbles = function SlidingPebbles(props) {
+  var containerClass = "spinner-container";
+
+  if (props.center === true) {
+    var containerClass = "spinner-container";
+  } else if (props.center === false) {
+    var containerClass = "spinner-container-regular";
+  }
+
   return /*#__PURE__*/React.createElement("div", {
-    className: "spinner-container"
+    className: containerClass,
+    style: {
+      backgroundColor: props.bgColor
+    }
   }, /*#__PURE__*/React.createElement("svg", {
     width: "100%",
     height: "46",
@@ -148,10 +185,102 @@ var SlidingPebbles = function SlidingPebbles() {
     cy: "23",
     r: "23",
     fill: "#13EC00"
-  }))));
+  }))), /*#__PURE__*/React.createElement("p", {
+    className: "text-loading"
+  }, props.text));
+};
+var Spinner = function Spinner(props) {
+  var containerClass = "spinner-container";
+
+  if (props.center === true) {
+    var containerClass = "spinner-container";
+  } else if (props.center === false) {
+    var containerClass = "spinner-container-regular";
+  }
+
+  return /*#__PURE__*/React.createElement("div", {
+    className: containerClass,
+    style: {
+      backgroundColor: props.bgColor
+    }
+  }, /*#__PURE__*/React.createElement("svg", {
+    width: "100%",
+    viewBox: "0 0 276 276",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "spinner"
+  }, /*#__PURE__*/React.createElement("circle", {
+    id: "bottom",
+    cx: "138",
+    cy: "138",
+    r: "114",
+    stroke: "#DBDBDB",
+    "stroke-width": "18"
+  }), /*#__PURE__*/React.createElement("circle", {
+    id: "upper",
+    cx: "138",
+    cy: "138",
+    r: "123",
+    stroke: "#72BBFF",
+    "stroke-width": "30",
+    "stroke-linecap": "round",
+    "stroke-linejoin": "round",
+    "stroke-dasharray": "373 100"
+  }))), /*#__PURE__*/React.createElement("p", {
+    className: "text-loading"
+  }, props.text));
+};
+var DoubleOrbit = function DoubleOrbit(props) {
+  var containerClass = "spinner-container";
+
+  if (props.center === true) {
+    var containerClass = "spinner-container";
+  } else if (props.center === false) {
+    var containerClass = "spinner-container-regular";
+  }
+
+  return /*#__PURE__*/React.createElement("div", {
+    className: containerClass,
+    style: {
+      backgroundColor: props.bgColor
+    }
+  }, /*#__PURE__*/React.createElement("svg", {
+    width: "105",
+    height: "88",
+    viewBox: "0 0 105 88",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "doubleorbit"
+  }, /*#__PURE__*/React.createElement("circle", {
+    id: "do2",
+    cx: "52.5",
+    cy: "41.5",
+    r: "12.5",
+    fill: "#3F3D3D"
+  }), /*#__PURE__*/React.createElement("g", {
+    id: "do1"
+  }, /*#__PURE__*/React.createElement("circle", {
+    id: "Ellipse 6",
+    cx: "12.5",
+    cy: "41.5",
+    r: "12.5",
+    fill: "#3F3D3D"
+  }), /*#__PURE__*/React.createElement("circle", {
+    id: "Ellipse 8",
+    cx: "92.5",
+    cy: "41.5",
+    r: "12.5",
+    fill: "#3F3D3D"
+  })))), /*#__PURE__*/React.createElement("p", {
+    className: "text-loading"
+  }, props.text));
 };
 
 exports.BarLoader = BarLoader;
 exports.DoubleBubble = DoubleBubble;
+exports.DoubleOrbit = DoubleOrbit;
 exports.SlidingPebbles = SlidingPebbles;
+exports.Spinner = Spinner;
 //# sourceMappingURL=index.js.map
