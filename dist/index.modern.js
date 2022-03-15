@@ -1,6 +1,6 @@
 import React from 'react';
 
-var BarLoader = function BarLoader(props) {
+const BarLoader = props => {
   var containerClass = "spinner-container";
 
   if (props.center === true) {
@@ -53,7 +53,7 @@ var BarLoader = function BarLoader(props) {
     className: "text-loading"
   }, props.text));
 };
-var DoubleBubble = function DoubleBubble(props) {
+const DoubleBubble = props => {
   var containerClass = "spinner-container";
 
   if (props.center === true) {
@@ -149,7 +149,7 @@ var DoubleBubble = function DoubleBubble(props) {
     className: "text-loading"
   }, props.text));
 };
-var SlidingPebbles = function SlidingPebbles(props) {
+const SlidingPebbles = props => {
   var containerClass = "spinner-container";
 
   if (props.center === true) {
@@ -187,7 +187,7 @@ var SlidingPebbles = function SlidingPebbles(props) {
     className: "text-loading"
   }, props.text));
 };
-var Spinner = function Spinner(props) {
+const Spinner = props => {
   var containerClass = "spinner-container";
 
   if (props.center === true) {
@@ -229,7 +229,7 @@ var Spinner = function Spinner(props) {
     className: "text-loading"
   }, props.text));
 };
-var DoubleOrbit = function DoubleOrbit(props) {
+const DoubleOrbit = props => {
   var containerClass = "spinner-container";
 
   if (props.center === true) {
