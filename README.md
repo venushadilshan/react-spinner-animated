@@ -12,7 +12,7 @@ npm i react-spinner-animated
 
 ## Variations
 
-<p float="left"><img src="https://i.ibb.co/j89B7SP/ezgif-2-629b520979.gif" width="600px" >
+<p float="left"><img src="https://i.ibb.co/YT6bwzL/2022-03-18-18-36-17.gif" width="600px" >
 
 
 </p>
@@ -22,6 +22,8 @@ npm i react-spinner-animated
  - `<SlidingPebbles/>`
  - `<DoubleOrbit/>`
  - `<Spinner/>`
+ - `<HalfMalf/>`
+ - `<TripleMaze/>`
 
 
 ## Usage
@@ -45,20 +47,42 @@ class MyComponent extends Component {
 
 ## Props
 
+<table border="1">
+<tr>
+<th>Prop</th>
 
-Each component has 3 optional props 
-- text - Custom text for display with the loader/spinner
-  - `<DoubleOrbit text="Loading..."/>`
-  - Default: " " (empty)
-  -  Acceptable values: String
-- bgColor - Background color of the container 
-  - `<DoubleOrbit bgColor={"#F0A500"}/>`
-  - Default: White
-  -  Acceptable values: Any color name of HEX color code
-- center - Place the component fixed at the center of the page 
-  - `<DoubleOrbit center={false}/>`
-  - Default: true
-  - Acceptable values: Boolean (true, false)
+<th>Usage</th>
+<th>Default</th>
+<th>Type</th>
+</tr>
+
+<tr>
+<td>text </td>
+<td> Custom text for display with the loader/spinner</td>
+<td> " "</td>
+<td> Strings</td>
+</tr>
+
+<tr>
+<td>bgColor </td>
+<td> Custom text for display with the loader/spinner</td>
+<td> White</td>
+<td> Any color name or HEX color code</td>
+</tr>
+
+<tr>
+<td>center </td>
+<td> Place the component fixed at the center of the page </td>
+<td> true</td>
+<td> Boolean (true, false)</td>
+</tr>
+
+
+</table>
+
+<hr>
+
+<br>
 
 
 ### See you again with more spinners

@@ -249,8 +249,8 @@
     animation-iteration-count: infinite;
     transform-origin: center;
     transform-box: border-box;
+    
 }
-
 
 
 @keyframes rotate-do {
@@ -279,3 +279,115 @@
 
 }
 
+
+#hmouter {
+    animation: hmrotate;
+    
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    transform-box: border-box;
+    
+    
+
+    
+ 
+}
+
+#hminner {
+    animation: hmrotate-inverse;
+    
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    transform-box: border-box;
+    
+    
+
+    
+ 
+}
+
+
+@keyframes hmrotate {
+    0%{
+        transform: rotateZ(0deg);
+    }
+
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes hmrotate-inverse {
+    0%{
+        transform: rotateZ(360deg);
+    }
+
+    100%{
+        transform: rotateZ(0deg);
+    }
+}
+
+#tm3
+{
+    animation: tm3-anim;
+    
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    transform-box: border-box;
+    
+}
+
+#tm2
+{
+    animation: tm1-anim;
+    
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    transform-box: border-box;
+    
+}
+
+#tm1
+{
+    animation: tm1-anim;
+    
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    transform-box: border-box;
+    
+}
+
+@keyframes tm3-anim {
+    0%{
+        transform: rotateZ(0deg);
+    }
+
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes tm2-anim {
+    0%{
+        transform: rotateZ(0deg);
+    }
+
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes tm1-anim {
+    0%{
+        transform: rotateZ(0deg);
+    }
+
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
