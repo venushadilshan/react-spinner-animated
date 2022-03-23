@@ -86,10 +86,12 @@
 
     z-index: 99;
     position: fixed;
-    width: 100px;
+    
     padding: 10px;
     top: 50%;
     display: flex;
+    align-items: center;
+    text-align: center;
     justify-content: center;
     align-content: center;
     flex-direction: column;
@@ -105,12 +107,15 @@
 
     z-index: 99;
     
-    width: 100px;
+    
     padding: 10px;
     
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    text-align: center;
+  
+    
     flex-direction: column;
     margin:10px;
     border-radius: 0.5rem;

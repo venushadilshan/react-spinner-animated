@@ -10,8 +10,7 @@ export const BarLoader = (props) => {
     else if (props.center === false) {
         var containerClass = "spinner-container-regular"
     }
-    return <div className={containerClass} style={{ backgroundColor: props.bgColor }}>
-
+    return <div className={containerClass} style={{ backgroundColor: props.bgColor, width:props.width, height:props.height }}>
         <svg width="87" height="50" viewBox="0 0 87 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="loader_bars">
                 <g id="upperbar">
@@ -40,7 +39,7 @@ export const DoubleBubble = (props) => {
     else if (props.center === false) {
         var containerClass = "spinner-container-regular"
     }
-    return <div className={containerClass} style={{ backgroundColor: props.bgColor }}>
+    return <div className={containerClass} style={{ backgroundColor: props.bgColor, width:props.width, height:props.height }}>
 
         <svg width="100%" viewBox="0 0 248 247" fill="none" xmlns="http://www.w3.org/2000/svg"  >
             <g id="spinner2">
@@ -75,7 +74,7 @@ export const SlidingPebbles = (props) => {
     else if (props.center === false) {
         var containerClass = "spinner-container-regular"
     }
-    return <div className={containerClass} style={{ backgroundColor: props.bgColor }}>
+    return <div className={containerClass} style={{ backgroundColor: props.bgColor, width:props.width, height:props.height }}>
 
         <svg width="100%" height="46" viewBox="0 0 69 46" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="slidingpebbles">
@@ -96,7 +95,7 @@ export const Spinner = (props) => {
     else if (props.center === false) {
         var containerClass = "spinner-container-regular"
     }
-    return <div className={containerClass} style={{ backgroundColor: props.bgColor }}>
+    return <div className={containerClass} style={{ backgroundColor: props.bgColor, width:props.width, height:props.height }}>
 
         <svg width="100%" viewBox="0 0 276 276" fill="none" xmlns="http://www.w3.org/2000/svg" >
             <g id="spinner">
@@ -119,7 +118,7 @@ export const DoubleOrbit = (props) => {
     else if (props.center === false) {
         var containerClass = "spinner-container-regular"
     }
-    return <div className={containerClass} style={{ backgroundColor: props.bgColor }}>
+    return <div className={containerClass} style={{ backgroundColor: props.bgColor, width:props.width, height:props.height }}>
 
         <svg width="105" height="88" viewBox="0 0 105 88" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="doubleorbit">
@@ -145,7 +144,7 @@ export const HalfMalf = (props) => {
     else if (props.center === false) {
         var containerClass = "spinner-container-regular"
     }
-    return <div className={containerClass} style={{ backgroundColor: props.bgColor }}>
+    return <div className={containerClass} style={{ backgroundColor: props.bgColor, width:props.width, height:props.height }}>
 
         <svg width="105" height="105" viewBox="0 0 163 163" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="halfmalf">
@@ -168,7 +167,7 @@ export const TripleMaze = (props) => {
         var containerClass = "spinner-container-regular"
     }
     return (
-        <div className={containerClass} style={{ backgroundColor: props.bgColor }}>
+        <div className={containerClass} style={{ backgroundColor: props.bgColor, width:props.width, height:props.height }}>
             <svg width="100" height="90" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="triplemaze">
                     <g id="tm3">

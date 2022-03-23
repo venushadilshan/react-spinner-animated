@@ -12,7 +12,9 @@ var BarLoader = function BarLoader(props) {
   return /*#__PURE__*/React.createElement("div", {
     className: containerClass,
     style: {
-      backgroundColor: props.bgColor
+      backgroundColor: props.bgColor,
+      width: props.width,
+      height: props.height
     }
   }, /*#__PURE__*/React.createElement("svg", {
     width: "87",
@@ -65,7 +67,9 @@ var DoubleBubble = function DoubleBubble(props) {
   return /*#__PURE__*/React.createElement("div", {
     className: containerClass,
     style: {
-      backgroundColor: props.bgColor
+      backgroundColor: props.bgColor,
+      width: props.width,
+      height: props.height
     }
   }, /*#__PURE__*/React.createElement("svg", {
     width: "100%",
@@ -161,7 +165,9 @@ var SlidingPebbles = function SlidingPebbles(props) {
   return /*#__PURE__*/React.createElement("div", {
     className: containerClass,
     style: {
-      backgroundColor: props.bgColor
+      backgroundColor: props.bgColor,
+      width: props.width,
+      height: props.height
     }
   }, /*#__PURE__*/React.createElement("svg", {
     width: "100%",
@@ -199,7 +205,9 @@ var Spinner = function Spinner(props) {
   return /*#__PURE__*/React.createElement("div", {
     className: containerClass,
     style: {
-      backgroundColor: props.bgColor
+      backgroundColor: props.bgColor,
+      width: props.width,
+      height: props.height
     }
   }, /*#__PURE__*/React.createElement("svg", {
     width: "100%",
@@ -241,7 +249,9 @@ var DoubleOrbit = function DoubleOrbit(props) {
   return /*#__PURE__*/React.createElement("div", {
     className: containerClass,
     style: {
-      backgroundColor: props.bgColor
+      backgroundColor: props.bgColor,
+      width: props.width,
+      height: props.height
     }
   }, /*#__PURE__*/React.createElement("svg", {
     width: "105",
@@ -287,7 +297,9 @@ var HalfMalf = function HalfMalf(props) {
   return /*#__PURE__*/React.createElement("div", {
     className: containerClass,
     style: {
-      backgroundColor: props.bgColor
+      backgroundColor: props.bgColor,
+      width: props.width,
+      height: props.height
     }
   }, /*#__PURE__*/React.createElement("svg", {
     width: "105",
@@ -322,7 +334,9 @@ var TripleMaze = function TripleMaze(props) {
   return /*#__PURE__*/React.createElement("div", {
     className: containerClass,
     style: {
-      backgroundColor: props.bgColor
+      backgroundColor: props.bgColor,
+      width: props.width,
+      height: props.height
     }
   }, /*#__PURE__*/React.createElement("svg", {
     width: "100",

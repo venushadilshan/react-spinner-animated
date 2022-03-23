@@ -4,6 +4,15 @@
 
 [![NPM](https://img.shields.io/npm/v/react-spinner.svg)](https://www.npmjs.com/package/react-spinner) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+<br>
+
+## Customize Your Spinner/Loader
+
+<a href="https://react-spinner-animated-demo.vercel.app/">  
+Create your spinner/Loader </a>
+
+<br>
+
 ## Install
 
 ```bash
@@ -40,7 +49,8 @@ import 'react-spinner-animated/dist/index.css'
 
 class MyComponent extends Component {
   render() {
-    return <DoubleOrbit text="Loading..." bgColor={"#F0A500"} center={false}/>
+    return <DoubleOrbit text={"Loading..."} bgColor={"#F0A500"} 
+    center={false} width={"150px"} height={"150px"}/>
   }
 }
 ```
@@ -68,6 +78,20 @@ class MyComponent extends Component {
 <td> Custom text for display with the loader/spinner</td>
 <td> White</td>
 <td> Any color name or HEX color code</td>
+</tr>
+
+<tr>
+<td>width </td>
+<td> width of the container </td>
+<td> -</td>
+<td> pixels (150px)</td>
+</tr>
+
+<tr>
+<td>height </td>
+<td> height of the container </td>
+<td> -</td>
+<td> pixels (150px)</td>
 </tr>
 
 <tr>
